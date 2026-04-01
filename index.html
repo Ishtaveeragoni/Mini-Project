@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SpamShield</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>SpamShield</h1>
+  <p>Check if a phone number is spam or safe</p>
+
+  <div class="card">
+    <form id="form">
+      <div class="input-row">
+
+        <!-- Country Code -->
+        <select id="country-code" class="code-select">
+          <option value="+91">IN +91</option>
+          <option value="+1">US +1</option>
+          <option value="+44">UK +44</option>
+          <option value="+61">AU +61</option>
+          <option value="+81">JP +81</option>
+        </select>
+
+        <!-- Phone -->
+        <input type="tel" id="phone" placeholder="Enter number" required>
+
+        <!-- Button -->
+        <button type="submit">Check</button>
+
+      </div>
+    </form>
+
+    <div id="result"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

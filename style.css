@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0e0e0f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  width: 420px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #1a1a1c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Country dropdown */
+.code-select {
+  width: 90px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+/* Input */
+input {
+  flex: 1;
+  height: 40px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Button */
+button {
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Result */
+.result {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.safe {
+  background: #123d1a;
+  color: #72bb3e;
+}
+
+.spam {
+  background: #3d1212;
+  color: #f05555;
+}
